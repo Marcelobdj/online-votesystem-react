@@ -1,0 +1,25 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #76323f;
+    color: #ffffff;
+}
+
+.navbar .greeting {
+    font-size: 1.25rem;
+}
+
+.navbar button {
+    background-color: #c59b6d;
+    color: #ffffff;
+    border: none;
+    border-radius: 0.25rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+}
+
+.navbar button:hover {
+    background-color: #a67d52;
+}
